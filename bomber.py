@@ -43,8 +43,9 @@ print("2.SMS Bombing")
 print("3.Update Me")
 print("4.Exit this shit")
 a = int(input("What you want to do? : "))
-if a == 1: os.system("clear")
-   def banner():
+if a == 1: 
+    os.system("clear")
+    def banner():
        print(''' 
          / \      _-'
      _/|  \-''- _ /
