@@ -45,8 +45,7 @@ print("4.Exit this shit")
 a = int(input("What you want to do? : "))
 if a == 1: 
     os.system("clear")
-    def banner():
-       print(''' 
+    print(''' 
          / \      _-'
      _/|  \-''- _ /
 __-' { |          \ 
@@ -61,6 +60,5 @@ __-' { |          \
         _'
       _-'
    ''')
-banner()
 else:
-  print('You messed up check whats wrong..')
+  print("You messed up check whats wrong..")
