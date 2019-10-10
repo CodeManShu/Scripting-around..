@@ -5,6 +5,12 @@ import datetime
 G = '\033[32m'
 C = '\033[36m'
 W = '\033[0m'
+os.system("clear")
+print("installing requirements please be patient....")
+os.system("apt install urllib")
+os.system("pip install twilio")
+os.system("pip install flask")
+input("press enter key to continue...")
 def banner():
     print(G + '''
     
@@ -37,8 +43,23 @@ print("2.SMS Bombing")
 print("3.Update Me")
 print("4.Exit this shit")
 a = int(input("What you want to do? : "))
-if a == 1:
-  print("installing requirements please be patient...")
-  os.system("apt install urllib")
+if a == 1: os.system("clear")
+   def banner():
+       print(''' 
+         / \      _-'
+     _/|  \-''- _ /
+__-' { |          \ 
+    /             \ 
+    /       "o.  |o }
+    |            \ ;                         bombing is injurious to victims phone
+                  ',                         make sure that you have active internet connection
+       \_         __\ 
+         ''-_    \.//
+           / '-____'
+          /
+        _'
+      _-'
+   ''')
+banner()
 else:
   print('You messed up check whats wrong..')
