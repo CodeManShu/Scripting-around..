@@ -1,4 +1,5 @@
 import youtube_dl
+import os
 
 class YTD2MP3:
     def __init__(self):
@@ -24,4 +25,6 @@ class YTD2MP3:
 
 downloader = YTD2MP3()
 url = input("Enter the YouTube url..\n")
+os.system('sudo apt install ffmpeg')
+os.system('clear')
 downloader.startDownload(url)
